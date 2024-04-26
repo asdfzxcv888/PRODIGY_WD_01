@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#main-nav {
+  position: fixed;
+  top: 0;
+  left: 10%; /* Adjusted to center the navigation */
+  width: 80%;
+  background-color: transparent; /* Initial background color */
+  transition: background-color 0.3s ease;
+  padding: 20px;
+  border: 0.5rem solid black;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem; /* Adjusted margin-top */
+  z-index: 1000; /* Ensures navigation is on top of other content */
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#main-nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#main-nav ul li a {
+  text-decoration: none;
+  color: #000; /* Initial font color */
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Added transition for smooth hover effect */
+}
+
+#main-nav ul li a:hover {
+  background-color: #ddd; /* Background color on hover */
+  color: #000; /* Adjusted font color on hover */
+}
+
+.content {
+  margin-top: 100px; /* Adjusted margin-top to make content visible below the navigation */
+  height: 2000px; /* Just for demonstration, replace with your actual content */
+ 
+}
+
+
+
+.content p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  text-align: center;
+  height: fit-content;
+}
+
+.content img{
+  width: 60% ;
+  margin-left: 20%;
+  border-radius: 10px;
+  
+
+}
